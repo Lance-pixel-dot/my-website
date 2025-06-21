@@ -1,9 +1,15 @@
+import profilePic1 from "./assets/profile-pic-1.jpg"
+
 function Hero(){
     return(
         <>
-            <img src="" alt="A really handsome photo of Renier Lawrence Tuico" />
-            <p>Hi, I’m Renier Lawrence Tuico. A Computer Science student passionate about software development, web technologies, and building creative solutions.</p>
-            <button>View my Projects</button>
+            <section className="flex p-4 justify-center">
+                <img src={profilePic1} alt="A really handsome photo of Renier Lawrence Tuico" className="w-65 rounded-full" />
+                <section className="flex flex-col self-stretch justify-center ml-4">
+                    <p className="mb-10">Hi, I’m Renier Lawrence Tuico. A Computer Science student passionate about software development, web technologies, and building creative solutions.</p>
+                    <button className="self-start border rounded p-2">View my Projects</button>
+                </section>
+            </section>
         </>
     );
 }
