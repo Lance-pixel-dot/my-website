@@ -9,7 +9,7 @@ function Card(){
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint asperiores consequuntur, doloremque modi velit ea numquam unde quaerat ab ipsum dolorum beatae? Id laudantium minus debitis aliquam dolore repellendus sunt.</p>
                 <section className="flex gap-2 justify-center ">
                     <button className="border rounded p-2">Live Demo</button>
-                    <button className="border rounded p-2">View on GitHub <img src={gitHubIcon} alt="GitHub Icon" className="w-5 inline-block"/></button>
+                    <button className="border rounded p-2 flex items-center gap-2">View on GitHub <img src={gitHubIcon} alt="GitHub Icon" className="w-5 inline-block"/></button>
                 </section>
             </section>
         </>
