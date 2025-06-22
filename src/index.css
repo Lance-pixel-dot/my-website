@@ -3,3 +3,11 @@
 button{
     cursor: pointer;
 }
+
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color:#D9D0BA
+}
