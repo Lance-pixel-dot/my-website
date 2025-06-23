@@ -8,8 +8,8 @@ function Card(){
                 <img src="https://placehold.co/400" alt="Project Thumbnail" className="w-65 place-self-center rounded" />
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint asperiores consequuntur, doloremque modi velit ea numquam unde quaerat ab ipsum dolorum beatae? Id laudantium minus debitis aliquam dolore repellendus sunt.</p>
                 <section className="flex gap-2 justify-center ">
-                    <a className="border rounded p-2 hover:bg-blue-400 hover:text-white">Live Demo</a>
-                    <a className="border rounded p-2 flex items-center gap-2 hover:bg-green-400 hover:text-white">View on GitHub <img src={gitHubIcon} alt="GitHub Icon" className="w-5 inline-block"/></a>
+                    <a className="border rounded p-2 hover:bg-blue-400 hover:text-white active:bg-blue-400 active:text-white">Live Demo</a>
+                    <a className="border rounded p-2 flex items-center gap-2 hover:bg-green-400 hover:text-white active:bg-green-400 active:text-white">View on GitHub <img src={gitHubIcon} alt="GitHub Icon" className="w-5 inline-block"/></a>
                 </section>
             </section>
         </>

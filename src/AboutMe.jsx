@@ -11,7 +11,7 @@ import tailWind from "./assets/tailwind-css-icon.svg"
 function AboutMe(){
     return(
         <>
-            <section className="p-4 flex flex-col gap-2 w-11/12 place-self-center mb-3">
+            <section className="p-4 flex flex-col gap-2 w-11/12 place-self-center mb-3" id="about-me">
                 <h2 className="font-semibold text-3xl mb-3" data-aos="fade-up">About Me</h2>
                 <h3 className="font-semibold text-xl" data-aos="fade-up">Bio</h3>
                 <p data-aos="fade-up" data-aos-delay="250">I’m Renier Lawrence B. Tuico, a passionate Computer Science student with a growing interest in software development, web technologies, and problem-solving. I enjoy building projects that challenge me to learn new skills and create meaningful solutions.</p>

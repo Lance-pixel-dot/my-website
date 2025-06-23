@@ -15,6 +15,7 @@ function App() {
       duration: 1000, // animation duration in ms
       once: true,     // whether animation should happen only once
     });
+    window.scrollTo(0, 0); // Scroll to top on page load
   }, []);
 
   return (
