@@ -6,7 +6,7 @@ function Header(){
 
     return (
         <>
-            <header className="flex justify-between p-2 border-b border-gray-500 shadow-md text-lg mb-3 items-center bg-[#C5B8BA] sticky top-0 z-50">
+            <header className="flex justify-between p-2 border-b border-gray-500 shadow-md text-lg items-center bg-[#C5B8BA] sticky top-0 z-50">
                 <h1 className="font-bold mx-auto md:mx-0" style={{fontFamily: 'Playfair Display, sans-serif'}}>Renier Lawrence Tuico</h1>
                 <nav>
                     <ul className="hidden gap-2 md:flex">

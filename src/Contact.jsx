@@ -9,7 +9,7 @@ function Contact(){
                     <h2 className="font-semibold text-3xl mb-3">Contact</h2>
                     <p>Email 📧: renierlawrencetuico143@gmail.com</p>
                     <a href="" className="flex items-center gap-2 hover:text-blue-600 w-max">LinkedIn <img src={linkedIn} alt="LinkedIn Logo" className="w-5"/></a>
-                    <a href="" className="flex items-center gap-2 hover:text-blue-600 w-max">Github <img src={github} alt="GitHub Logo" className="w-5"/></a>
+                    <a href="https://github.com/Lance-pixel-dot" className="flex items-center gap-2 hover:text-blue-600 w-max">Github <img src={github} alt="GitHub Logo" className="w-5"/></a>
                 </section>
             </section>
         </>
