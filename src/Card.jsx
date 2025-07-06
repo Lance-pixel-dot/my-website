@@ -10,7 +10,7 @@ function Card(props){
                     <p>{props.description}</p>
                     <section className="flex gap-2 justify-center ">
                         <a href={props.link} className="border rounded p-2 hover:bg-blue-400 hover:text-white active:bg-blue-400 active:text-white">Live Demo</a>
-                        <a href={props.gitHub} className="border rounded p-2 flex items-center gap-2 hover:bg-green-400 hover:text-white active:bg-green-400 active:text-white">View on GitHub <img src={gitHubIcon} alt="GitHub Icon" className="w-5 inline-block"/></a>
+                        <a href={props.gitHub} className={`border rounded p-2 flex items-center gap-2 hover:bg-green-400 hover:text-white active:bg-green-400 active:text-white ${props.displayGithub}`}>View on GitHub <img src={gitHubIcon} alt="GitHub Icon" className="w-5 inline-block"/></a>
                     </section>
                 </section>
             </section>
