@@ -142,3 +142,11 @@ button, a{
 .btn-countdown.git-hub-btn:hover{
     background-color: rgba(2, 90, 192, 1);
 }
+
+.btn-countdown:active{
+    background-color: rgba(6, 136, 6, 1);
+}
+
+.btn-countdown.git-hub-btn:active{
+    background-color: rgba(2, 90, 192, 1);
+}
