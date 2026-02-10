@@ -15,7 +15,7 @@ function AboutMe(){
             <section className="p-4 flex flex-col gap-5 w-11/12" id="about-me">
                 <h2 className="font-semibold text-3xl mb-3" data-aos="fade-up">About Me</h2>
                 <h3 className="font-semibold text-xl" data-aos="fade-up">Bio</h3>
-                <p data-aos="fade-up" data-aos-delay="250">I’m Renier Lawrence B. Tuico, a passionate Computer Science student with a growing interest in software development. I enjoy building projects that challenge me to learn new skills!</p>
+                <p data-aos="fade-up" data-aos-delay="250">I’m Renier Lawrence B. Tuico, a developer with a strong interest in software and web development. I enjoy building projects that challenge me to learn new skills!</p>
                 <h3 className="font-semibold text-xl" data-aos="fade-up">Skills</h3>
                 <span className="font-semibold text-lg" data-aos="fade-up">Languages: </span>
                 <ul className="flex gap-4 items-center">
