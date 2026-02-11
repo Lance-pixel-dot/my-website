@@ -15,9 +15,9 @@ function AboutMe(){
             <section className="p-4 flex flex-col gap-5 w-11/12" id="about-me">
                 <h2 className="font-semibold text-3xl mb-3" data-aos="fade-up">About Me</h2>
                 <h3 className="font-semibold text-xl" data-aos="fade-up">Bio</h3>
-                <p data-aos="fade-up" data-aos-delay="250">I’m Renier Lawrence B. Tuico, a developer with a strong interest in software and web development. I enjoy building projects that challenge me to learn new skills!</p>
+                <p data-aos="fade-up" data-aos-delay="250">I’m Renier Lawrence B. Tuico, a web developer I enjoy building projects that challenge me to learn new skills!</p>
                 <h3 className="font-semibold text-xl" data-aos="fade-up">Skills</h3>
-                <span className="font-semibold text-lg" data-aos="fade-up">Languages: </span>
+                <span className="font-semibold text-lg" data-aos="fade-up">Programming Languages: </span>
                 <ul className="flex gap-4 items-center">
                     <li><img src={html} alt="HTML" className="w-15 transition-transform duration-300 bounce-animation delay-0" data-aos="fade-right"/></li>
                     <li><img src={css} alt="CSS" className="w-15 transition-transform duration-300 bounce-animation delay-1" data-aos="fade-right"/></li>
