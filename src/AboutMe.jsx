@@ -8,6 +8,10 @@ import git from "./assets/git-icon.svg"
 import github from "./assets/github-mark.svg"
 import react from "./assets/react-js-icon.svg"
 import tailWind from "./assets/tailwind-css-icon.svg"
+import mysql from "./assets/mysql.svg"
+import postgres from "./assets/postgresql.svg"
+import linux from  "./assets/linux.svg"
+import windows from "./assets/windows.svg"
 
 function AboutMe(){
     return(
@@ -15,7 +19,7 @@ function AboutMe(){
             <section className="p-4 flex flex-col gap-5 w-11/12" id="about-me">
                 <h2 className="font-semibold text-3xl mb-3" data-aos="fade-up">About Me</h2>
                 <h3 className="font-semibold text-xl" data-aos="fade-up">Bio</h3>
-                <p data-aos="fade-up" data-aos-delay="250">I’m Renier Lawrence B. Tuico, a web developer I enjoy building projects that challenge me to learn new skills!</p>
+                <p data-aos="fade-up" data-aos-delay="250">I’m Renier Lawrence B. Tuico, a Software Developer I enjoy building projects that challenge me to learn new skills!</p>
                 <h3 className="font-semibold text-xl" data-aos="fade-up">Skills</h3>
                 <span className="font-semibold text-lg" data-aos="fade-up">Programming Languages: </span>
                 <ul className="flex gap-4 items-center">
@@ -35,6 +39,16 @@ function AboutMe(){
                 <ul className="flex items-center gap-5">
                     <li><img src={react} alt="React" className="w-15 transition-transform duration-300 bounce-animation delay-0" data-aos="fade-right"/></li>
                     <li><img src={tailWind} alt="Tailwind CSS" className="w-15 transition-transform duration-300 bounce-animation delay-1" data-aos="fade-right"/></li>
+                </ul>
+                <span className="font-semibold text-lg" data-aos="fade-up">Databases: </span>
+                <ul className="flex items-center gap-5">
+                    <li><img src={mysql} alt="React" className="w-15 transition-transform duration-300 bounce-animation delay-0" data-aos="fade-right"/></li>
+                    <li><img src={postgres} alt="Tailwind CSS" className="w-15 transition-transform duration-300 bounce-animation delay-1" data-aos="fade-right"/></li>
+                </ul>
+                <span className="font-semibold text-lg" data-aos="fade-up">Operating Systems: </span>
+                <ul className="flex items-center gap-5">
+                    <li><img src={linux} alt="React" className="w-15 transition-transform duration-300 bounce-animation delay-0" data-aos="fade-right"/></li>
+                    <li><img src={windows} alt="Tailwind CSS" className="w-15 transition-transform duration-300 bounce-animation delay-1" data-aos="fade-right"/></li>
                 </ul>
                 <h3 className="font-semibold text-lg" data-aos="fade-up">Personal Interest</h3>
                 <p data-aos="fade-up">I like to play Video Games! 🎮</p>
